@@ -1,0 +1,7 @@
+.propusing{
+    background-color: burlywood;
+    display: grid;
+    grid-template-columns: 10,1fr;
+    grid-template-rows: 10,1fr;
+
+}

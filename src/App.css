@@ -1,0 +1,44 @@
+.gamestarting{
+  background-color: rgb(226, 226, 176);
+  height: 690px;
+  width: 1510px;
+  background-image: url(https://th.bing.com/th/id/R.a9e696a9b1283bb475997e98e03d79d1?rik=b%2bIemV65PxB3Mg&riu=http%3a%2f%2fmedia.istockphoto.com%2fvectors%2fsnakes-and-ladders-board-game-vector-id165730893&ehk=3paU9gHXYRr91ZM8yCtV%2fJVtAGmRQbQC84wa40VpesM%3d&risl=&pid=ImgRaw&r=0);
+}
+#head{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+#gameboard {
+  display: grid;
+  border:2px solid rgb(199, 29, 159);
+  position: sticky;
+  width: 950px;
+  height: 880px;
+  grid-template-columns: repeat(10,1fr);
+  grid-template-rows: repeat(10,1fr);
+  background-image: linear-gradient(rgb(126, 230, 110),rgb(239, 178, 47));
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: medium;
+  justify-content: center; 
+  text-align: center;
+  float: right;
+  zoom: 65%;
+}
+#gameboard>div{
+  border: 2px solid rgb(232, 24, 180) ;
+  font-size: medium;
+}
+#subparts{
+  grid-template-rows: 2;
+  border: 2px solid black;
+  background-image: url(https://i.pinimg.com/originals/f7/72/77/f77277807c7bbef00a85e0272cf4b61a.jpg);
+  height: 400px;
+  width: 400px;
+  margin-bottom: 200px;
+  margin-top: 140px;
+  margin-left: 60px;
+}
+#diceimg{
+  height: 100px;
+  border: 400px;
+}
